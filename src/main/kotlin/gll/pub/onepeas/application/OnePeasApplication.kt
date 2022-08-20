@@ -28,5 +28,5 @@ class OnePeasApplication {
 
 fun main(args: Array<String>) {
     runApplication<OnePeasApplication>(*args)
-    OnePeasApplication.printApplicatonHeader("Contact High", "1.0.1", "Noah Panicola")
+    OnePeasApplication.printApplicatonHeader("OnePase", "1.0.0", "GLL")
 }

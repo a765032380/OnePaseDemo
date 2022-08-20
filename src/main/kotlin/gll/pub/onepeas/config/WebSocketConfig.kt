@@ -7,6 +7,8 @@ import org.springframework.web.socket.config.annotation.*
 @Configuration @EnableWebSocket
 class WebSocketConfig : WebSocketConfigurer {
     override fun registerWebSocketHandlers(registry: WebSocketHandlerRegistry) {
-        registry.addHandler(SocketHandler(), "/ws").withSockJS()
+        registry.addHandler(SocketHandler(), "/")
+            .setAllowedOrigins("*")
+            .withSockJS()
     }
 }
