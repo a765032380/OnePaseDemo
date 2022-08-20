@@ -22,6 +22,8 @@ class SocketHandler : TextWebSocketHandler() {
     override fun afterConnectionClosed(session: WebSocketSession, status: CloseStatus) {
         sessionList -= session
     }
+    //{"type":"join","data":"gll"}
+    //{"type":"say","data":"gll"}
 
     override fun handleTextMessage(session: WebSocketSession, message: TextMessage) {
         try {

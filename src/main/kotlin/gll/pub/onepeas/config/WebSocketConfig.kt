@@ -9,6 +9,6 @@ class WebSocketConfig : WebSocketConfigurer {
     override fun registerWebSocketHandlers(registry: WebSocketHandlerRegistry) {
         registry.addHandler(SocketHandler(), "/")
             .setAllowedOrigins("*")
-            .withSockJS()
+//            .withSockJS()
     }
 }

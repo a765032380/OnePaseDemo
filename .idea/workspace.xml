@@ -171,7 +171,7 @@
       <updated>1530285913799</updated>
       <workItem from="1660958960131" duration="2740000" />
       <workItem from="1660962521688" duration="4000" />
-      <workItem from="1660962671950" duration="1050000" />
+      <workItem from="1660962671950" duration="1366000" />
     </task>
     <servers />
   </component>
@@ -218,6 +218,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/gll/pub/onepeas/eventHandlers/SocketHandler.kt</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>
