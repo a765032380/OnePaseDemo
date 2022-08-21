@@ -11,6 +11,6 @@ object FileUtil {
 
 fun main() {
     val json = FileUtil.readJSON("src/main/resources/data.json").replace("last modified","lastModified")
-    println()
+    println(json)
 }
 data class JSON(val name:String,val lastModified:String,val size:String)

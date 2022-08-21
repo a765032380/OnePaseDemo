@@ -8,12 +8,13 @@ import javax.persistence.*
 class VideoEntity(){
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "ch_friend_entry_id") val id: Long? = null
+    @GeneratedValue()
+    @Column(name = "id") val id: Long? = null
 
-    @Column(name = "title") val title: String = ""
-    @Column(name = "description") val description: String = ""
-    @Column(name = "is_active") val isActive: Boolean? = null
-    @Column(name = "is_accepted") val isAccepted: Boolean? = null
+    @Column(name = "title") var title: String = ""
+    @Column(name = "description") var description: String = ""
+    @Column(name = "cover") var cover: String = ""
+    @Column(name = "size") var size: String = ""
+    @Column(name = "url") var url: String = ""
 
 }
