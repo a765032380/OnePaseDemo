@@ -4,28 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ae58094-6163-47fe-9e20-068ff67ec069" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/影视总.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/灵魂摆渡-第一季.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/灵魂摆渡-第三季.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/灵魂摆渡-第二季.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/灵魂摆渡-黄泉.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/秦时明月-万里长城.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/秦时明月-君临天下.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/秦时明月-夜尽天明.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/秦时明月-天行九歌.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/秦时明月-沧海横流.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/秦时明月-百步飞剑.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/秦时明月-诸子百家.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/职场.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/鬼喊抓鬼.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
+    <list default="true" id="4ae58094-6163-47fe-9e20-068ff67ec069" name="Default" comment="--">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/gll/pub/onepeas/controller/VideoController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/gll/pub/onepeas/controller/VideoController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/gll/pub/onepeas/repository/VideoRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/gll/pub/onepeas/repository/VideoRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/gll/pub/onepeas/util/FileUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/gll/pub/onepeas/util/FileUtil.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/OnePaseDemo.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/OnePaseDemo.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/OnePaseDemo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/OnePaseDemo.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,6 +199,14 @@
       <workItem from="1661055824366" duration="243000" />
       <workItem from="1661056074079" duration="26000" />
     </task>
+    <task id="LOCAL-00001" summary="--">
+      <created>1661927425442</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661927425442</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,5 +222,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="--" />
+    <option name="LAST_COMMIT_MESSAGE" value="--" />
   </component>
 </project>
