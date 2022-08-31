@@ -5,16 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae58094-6163-47fe-9e20-068ff67ec069" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/gll/pub/onepeas/util/JsonUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/影视总.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/灵魂摆渡-第一季.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/灵魂摆渡-第三季.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/灵魂摆渡-第二季.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/灵魂摆渡-黄泉.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/秦时明月-万里长城.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/秦时明月-君临天下.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/秦时明月-夜尽天明.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/秦时明月-天行九歌.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/秦时明月-沧海横流.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/秦时明月-百步飞剑.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/秦时明月-诸子百家.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/职场.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/鬼喊抓鬼.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/gll/pub/onepeas/controller/VideoController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/gll/pub/onepeas/controller/VideoController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/gll/pub/onepeas/model/VideoEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/gll/pub/onepeas/model/VideoEntity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/gll/pub/onepeas/repository/VideoRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/gll/pub/onepeas/repository/VideoRepository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/gll/pub/onepeas/util/FileUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/gll/pub/onepeas/util/FileUtil.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/OnePeasDemo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/OnePeasDemo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/OnePaseDemo.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/OnePaseDemo.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/OnePaseDemo.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +35,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,18 +64,24 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2DbDb5EkJqDBz89fXSiMroksAnV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;9dbab300016c10e1c5c0194965a7b427&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/gongleilei/IdeaProjects/OnePaseDemo/src/main/resources",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "9dbab300016c10e1c5c0194965a7b427"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -77,7 +95,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OnePeasApplication">
+  <component name="RunManager" selected="Kotlin.OnePeasApplicationKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -87,6 +105,13 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileUtilKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gll.pub.onepeas.util.FileUtilKt" />
+      <module name="OnePaseDemo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,6 +132,20 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="gll.pub.onepeas.util.FileUtilKt" />
       <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieAPIKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gll.pub.onepeas.util.MovieAPIKt" />
+      <module name="OnePaseDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OnePeasApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gll.pub.onepeas.application.OnePeasApplicationKt" />
+      <module name="OnePaseDemo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,13 +180,16 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Kotlin.FileUtilKt (1)" />
+      <item itemvalue="Kotlin.MovieAPIKt" />
+      <item itemvalue="Kotlin.OnePeasApplicationKt" />
       <item itemvalue="Kotlin.FileUtilKt" />
-      <item itemvalue="Spring Boot.OnePeasApplication (1)" />
-      <item itemvalue="Spring Boot.OnePeasApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.FileUtilKt" />
+        <item itemvalue="Kotlin.OnePeasApplicationKt" />
+        <item itemvalue="Kotlin.FileUtilKt (1)" />
+        <item itemvalue="Kotlin.MovieAPIKt" />
         <item itemvalue="Kotlin.FileUtilKt" />
       </list>
     </recent_temporary>
