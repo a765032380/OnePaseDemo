@@ -1,2 +1,2 @@
 # KotlinSpringDemo
-A RESTful Spring API written in Kotlin. This project takes advantage of WebSockets and the PagingAndSortingRepository interface.
+一个用Kotlin编写的RESTful Spring API。这个项目利用了WebSockets和PagingAndSortingRepository接口。
